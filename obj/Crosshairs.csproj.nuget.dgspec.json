@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\toaja\\My_Programs_Local\\Crosshairs\\Crosshairs.csproj": {}
+    "C:\\Users\\toaja\\My_Programs_Local\\GM.Crosshairs\\Crosshairs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\toaja\\My_Programs_Local\\Crosshairs\\Crosshairs.csproj": {
+    "C:\\Users\\toaja\\My_Programs_Local\\GM.Crosshairs\\Crosshairs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\toaja\\My_Programs_Local\\Crosshairs\\Crosshairs.csproj",
+        "projectUniqueName": "C:\\Users\\toaja\\My_Programs_Local\\GM.Crosshairs\\Crosshairs.csproj",
         "projectName": "Crosshairs",
-        "projectPath": "C:\\Users\\toaja\\My_Programs_Local\\Crosshairs\\Crosshairs.csproj",
+        "projectPath": "C:\\Users\\toaja\\My_Programs_Local\\GM.Crosshairs\\Crosshairs.csproj",
         "packagesPath": "C:\\Users\\toaja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\toaja\\My_Programs_Local\\Crosshairs\\obj\\",
+        "outputPath": "C:\\Users\\toaja\\My_Programs_Local\\GM.Crosshairs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
