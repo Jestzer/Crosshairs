@@ -1,5 +1,5 @@
 ﻿Crosshairs
-1.0.0.0
+1.1.0.0
 
 winexe
 C#
@@ -10,11 +10,11 @@ none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP
 C:\Users\toaja\My_Programs_Local\GM.Crosshairs\App.xaml
-11407045341
+2-1963726014
 1-1606303973
-61393214173
+8525845826
 198-688555687
-MainWindow.xaml;
+InterfaceWindow.xaml;MainWindow.xaml;
 
-False
+True
 
