@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\toaja\My_Programs_Local\Crosshairs\obj\Release\net8.0-windows\
+C:\Users\toaja\My_Programs_Local\GM.Crosshairs\obj\Release\net8.0-windows\
 Crosshairs
 none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP
-C:\Users\toaja\My_Programs_Local\Crosshairs\App.xaml
-11407045341
+C:\Users\toaja\My_Programs_Local\GM.Crosshairs\App.xaml
+2-1963726014
 1-1606303973
-4430486269
+6-436882078
 198-688555687
-MainWindow.xaml;
+InterfaceWindow.xaml;MainWindow.xaml;
 
 False
 

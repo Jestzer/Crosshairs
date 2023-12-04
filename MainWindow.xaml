@@ -3,16 +3,33 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Crosshairs"
+        xmlns:properties="clr-namespace:Crosshairs.Properties"
         mc:Ignorable="d"
-        Title="GM Crosshairs" Height="100" Width="100"
-    WindowStyle="None"
+        Title="Crosshairs" Height="1000" Width="200"
+        WindowStyle="None"
         AllowsTransparency="True"
         Background="{x:Null}"
-     Opacity="0.5"
-            WindowStartupLocation="CenterScreen">
+        Opacity="0.9"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <local:MarginConverter x:Key="MarginConverter"/>
+    </Window.Resources>
+    
     <Grid>
         <TextBlock x:Name="crosshairTextBlock"
                    HorizontalAlignment="Center" TextWrapping="Wrap" Text="+" VerticalAlignment="Top" Foreground="Black" 
-                   Background="{x:Null}" FontWeight="Bold" FontSize="30" Margin="0,50,0,0"/>
+                   Background="{x:Null}" FontWeight="Bold" FontSize="30">
+            <TextBlock.Margin>
+                <MultiBinding Converter="{StaticResource MarginConverter}">
+                    <Binding Path="xCord" Source="{x:Static properties:Settings.Default}"/>
+                    <Binding Path="yCord" Source="{x:Static properties:Settings.Default}"/>
+                </MultiBinding>
+            </TextBlock.Margin>
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="10" Color="White"/>
+            </TextBlock.Effect>
+        </TextBlock>
     </Grid>
 </Window>
