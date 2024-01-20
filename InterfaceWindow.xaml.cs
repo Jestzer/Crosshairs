@@ -1,5 +1,4 @@
-﻿using Crosshairs.Properties;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Input;
 
